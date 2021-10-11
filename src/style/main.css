@@ -1,0 +1,32 @@
+.mn{
+    text-align: center;
+}
+
+.p1 {
+    font-size: 50px;
+    color: white;
+    font-size: 60px;
+}
+
+.p2{
+    font-size: 40;
+    color: white;
+}
+
+#button {
+    color: #040404;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    border: black;
+}
+
+.footer {
+    opacity: 50%;
+    clear:both;
+    position: relative;
+    height: 200px;
+    margin-top: 600px;
+    color:white;
+    
+}
+
