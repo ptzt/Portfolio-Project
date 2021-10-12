@@ -3,15 +3,31 @@
 }
 
 .p1 {
-    font-size: 50px;
-    color: white;
-    font-size: 60px;
+    color: #ededed;
+    font-size: 54px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
-.p2{
-    font-size: 40;
-    color: white;
+.p2 {
+    font-size: 16.2px;
+    font-family: "Roboto", sans-serif;
+    color: #ededed;
+    text-align: left;
+    margin: 200px;
+    margin-top: 0px;
+    font-weight: 400;
 }
+
+
+.p3 {
+    color: #ededed;
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: -140px;
+}
+
 
 #button {
     color: #040404;
@@ -25,7 +41,7 @@
     clear:both;
     position: relative;
     height: 200px;
-    margin-top: 600px;
+    margin-top: 400px;
     color:white;
     
 }
