@@ -4,4 +4,8 @@
 
 .me-auto{
     margin: auto;
+    font-family: "Liberation Mono";
+    font-weight: 400;
+    font-size: 14px;
 }
+

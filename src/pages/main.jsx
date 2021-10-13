@@ -1,6 +1,6 @@
 import React from 'react'
 import {AiFillGithub} from 'react-icons/ai'
-import {TiSocialTwitter} from 'react-icons/ti'
+
 import '../style/main.css'
 
 
@@ -8,8 +8,12 @@ import '../style/main.css'
 function Main() {
     return(
         <body className= 'mn' >
+            <helmet>
+                <style>{'body{background-color:#101010;}'}</style>
+             </helmet>
+             
             <header>
-                <form method="get" action="https://github.com/ptzt">
+                <form method="get" action="https://github.com/ptzt" target="_blank">
                     <button id="button"><AiFillGithub size={35}/></button>
                 </form>
             </header>
