@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
 import '../style/contact.css'
+require('dotenv').config()
+
 
 const Contact = () => {
     const [name, setName] = useState('');
