@@ -1,5 +1,24 @@
 import React from 'react'
-import {AiFillGithub} from 'react-icons/ai'
+import {AiFillGithub, 
+        AiFillLinkedin,
+        
+    } from 'react-icons/ai'
+
+import { DiReact,
+         DiMongodb,
+         DiNodejs,
+         DiPostgresql,
+         DiNpm   } from 'react-icons/di'
+
+import {SiNextdotjs
+
+    } from 'react-icons/si'
+
+import {IoLogoJavascript
+
+} from 'react-icons/io'
+
+
 
 import '../style/main.css'
 
@@ -7,29 +26,51 @@ import '../style/main.css'
 
 function Main() {
     return(
-        <body className= 'mn' >
+        <div className= 'mn' >
             <helmet>
                 <style>{'body{background-color:#101010;}'}</style>
              </helmet>
              
-            <header>
-                <form method="get" action="https://github.com/ptzt" target="_blank">
-                    <button id="button"><AiFillGithub size={35}/></button>
-                </form>
-            </header>
-
-
+            <div className="main">
+                <header className="header">
+                    <form className="form" method="get" action="https://github.com/ptzt" target="_blank">    
+                        <button id="button"><AiFillGithub size={35}/></button>
+                    </form>
+                    <form className="form" method="get" action="https://www.linkedin.com/in/tomasmillandev/" target="_blank">    
+                        <button id="button"><AiFillLinkedin size={35}/></button>
+                    </form>
             <p className = "p1">Heyy, soy Tomas✌️</p>
-            <p className="p2">Lorem ipsum dolor sit amet consectetur adipiscing elit orci enim, per cum dui himenaeos turpis ultricies vehicula nibh viverra, curabitur luctus ornare semper ligula montes iaculis vel. Ad tincidunt fringilla fermentum dignissim magnis pretium class luctus lacinia senectus et, facilisi morbi posuere euismod proin consequat curabitur enim scelerisque leo feugiat mus, pharetra tristique felis eu ligula eros sed maecenas hendrerit nunc. Metus condimentum accumsan vivamus sociis nisi sollicitudin dui magnis etiam cum justo mauris fames pharetra, et lacinia vitae duis habitant litora luctus auctor mi ac aptent conubia ante. Consequat est massa inceptos litora rutrum luctus, quis etiam quisque congue molestie iaculis tristique, mi habitant dui ornare aliquam.</p>
-            <p className ="p3">¿Que hago?</p>
-            <p className="p2">Lorem ipsum dolor sit amet consectetur adipiscing elit, metus mollis cubilia ut tortor feugiat in, fringilla eros ultricies senectus inceptos velit. Rutrum vivamus ante id luctus odio blandit porta, augue dui ligula rhoncus pulvinar fames nunc, semper sociosqu cursus posuere taciti neque. Torquent conubia bibendum massa quam, hendrerit praesent mi.</p>
-            <p className="p3">Tecnologias</p>
-            <p className="p2">Utilizo una amplia gama de herramientas para abordar cada obstáculo de la manera más eficiente posible</p>
+                </header>
+
+            <div>   
+                <p className="p2">Soy un programador de 20 años de Argentina. Estoy interesado en aplicaciones tanto frontend como backend, siempre usando codigo de calidad y trabajando en equipo😃.</p>
+            </div>
+            <div>
+                <p className ="p3">¿Que hago?💭</p>
+                <p className="p2">Actualmente programo en React en el frontend y Nodejs en el backend, y estoy aprendiendo NextJs por su amplia mejora al rendimiento de paginas. Pero me adapto a lo que se necesite en el momento, pueden consultar mi <a className="git" href="https://github.com/ptzt">Github</a> para ver mis proyectos y colaboracines.</p>
+            </div>
+
+            <div>
+                <p className="p3">Tecnologias💻</p>
+                <p className="p2">Utilizo una amplia gama de herramientas para abordar cada obstáculo de la manera más eficiente posible, voy aprendiendo tecnologias nuevas con mucho esfuerzo y dedicacion, pero estas son las que mejor controlo hasta el momento.</p>
+                <p className="icons">
+                <h3><DiReact size={35}/> React.js</h3>
+                <h3><IoLogoJavascript size={35}/> Javascript</h3>
+                <h3><DiNodejs size={35}/> Node.js</h3>
+                <h3><DiMongodb size={35}/> MongoDB</h3>
+                <h3><DiPostgresql size={35}/> Postgresql</h3>
+                <h3><SiNextdotjs size={35}/> Next.js</h3>
+                <h3><DiNpm size={35}/> Npm</h3>
+                </p>
+
+            </div>
+            
+        </div>
             <footer className="footer">
             <h1>Tomas Millan</h1>
             <p>Fullstack Developer • 2021</p>
             </footer>
-        </body>
+        </div>
     )
 }
 

@@ -1,0 +1,76 @@
+.main {
+    width: 100%;
+    margin: auto;
+    font-size: 32px;
+    font-family: 'Roboto' 400;
+}
+
+.p4 {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+body {
+    background: #101010;
+}
+body #contact-form {
+    position: absolute;
+    background: #19191A;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 11px 15px -7px rgba(0, 0, 0, .2), 0 24px 38px 3px rgba(0, 0, 0, .14), 0 9px 46px 8px rgba(0, 0, 0, .12);
+}
+body #contact-form input, body #contact-form textarea {
+    width: 100%;
+    border: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    background-color: #242426;
+}
+body #contact-form textarea {
+    height: 100px;
+    resize: vertical;
+    background-color: #242426;
+    resize: none;
+}
+body #contact-form button {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+    background: #242426;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+body #contact-form span {
+    display: none;
+    text-align: center;
+}
+body #contact-form span.visible {
+    display: block;
+}
+
+
+@media (max-width: 400px) {
+    .main {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+    .main{
+        display:block;
+        margin: auto;
+
+    }
+}
+

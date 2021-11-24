@@ -1,31 +1,50 @@
 .mn{
     text-align: center;
+    background-color: #101010;
+    color:white;
+    margin: 200px;    
+}
+
+.main {
+    text-align: justify;
+}
+
+.header {
+    margin-top: -150px;
 }
 
 .p1 {
-    color: #ededed;
     font-size: 54px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    margin-top: -10px;
 }
 
 .p2 {
-    font-size: 16.2px;
+    font-size: 20.2px;
     font-family: "Roboto", sans-serif;
-    color: #ededed;
-    text-align: left;
-    margin: 200px;
-    margin-top: 0px;
     font-weight: 400;
+}
+.p3{
+    font-size: 20.2px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-right: 400px;
+}
+
+.git {
+    color: white;
 }
 
 
 .p3 {
-    color: #ededed;
     font-size: 27px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    margin-top: -140px;
+}
+
+.form {
+    display: inline-block;
 }
 
 
@@ -34,15 +53,49 @@
     -webkit-filter: invert(100%);
     filter: invert(100%);
     border: black;
+    display: inline;
+    cursor: pointer;
+    margin-top: 20px;
 }
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px ,1fr));
+    grid-gap: 1rem;
+}
+
+
 
 .footer {
     opacity: 50%;
     clear:both;
     position: relative;
     height: 200px;
-    margin-top: 400px;
-    color:white;
-    
+    margin-top: 300px;
 }
 
+.footer-about {
+    margin-right: 400px;
+    margin-top: 200px;
+    opacity: 50%;
+    clear:both;
+    position: relative;
+    height: 200px;
+}
+
+
+@media (max-width: 400px) {
+    .main {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+    .main{
+        display:block;
+        margin: auto;
+
+    }
+}
+  

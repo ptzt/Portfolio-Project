@@ -1,11 +1,47 @@
-.navbar{
-    background-color: #101010;
+:root {
+  --font: "Liberation Mono" ;
+  --color-bg: #101010;
+  --color-txt: #fff;
 }
 
-.me-auto{
+
+body {
+  width: 100%;
+  font-family: var(--font);
+  color: var(--color-txt);
+  background: var(--color-bg);
+}
+
+
+
+.App {
+    text-align: left;
     margin: auto;
-    font-family: "Liberation Mono";
-    font-weight: 400;
-    font-size: 14px;
+    margin-left: 190px;
+}
+
+.App .Navbar {
+  grid-template-columns: auto 1fr;
+}
+
+.App .Navbar ul {
+    justify-content: flex-end;
+    padding: 0.25rem 0.75rem;
+    list-style: none;
+}
+
+.App .Navbar ul li {
+    margin: 0 0.75rem;
+    font-size: 0.813rem;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.App .Navbar ul li a {
+  color: inherit;
+  text-decoration: underline;
+  padding: 0 0.25rem;
+  letter-spacing: 0.2rem;
+  position: relative;
 }
 
