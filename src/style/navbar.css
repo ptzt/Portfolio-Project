@@ -17,7 +17,6 @@ body {
 .App {
     text-align: left;
     margin: auto;
-    margin-left: 190px;
 }
 
 .App .Navbar {
@@ -45,3 +44,16 @@ body {
   position: relative;
 }
 
+@media (max-width: 2560px) {
+  .App {
+    margin-left: 190px;
+
+  }
+} 
+
+@media (max-width: 425px) {
+  .App {
+    margin:auto;
+    margin-left: -20px;
+  }
+}

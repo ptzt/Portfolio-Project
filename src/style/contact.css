@@ -16,7 +16,7 @@ body {
 body #contact-form {
     position: absolute;
     background: #19191A;
-    color: #fff;
+    color: white;
     font-family: sans-serif;
     padding: 20px;
     top: 50%;
@@ -30,12 +30,12 @@ body #contact-form input, body #contact-form textarea {
     padding: 10px 20px;
     box-sizing: border-box;
     margin-bottom: 15px;
-    background-color: #242426;
+    background-color: #fff;
 }
 body #contact-form textarea {
     height: 100px;
     resize: vertical;
-    background-color: #242426;
+    background-color: #fff;
     resize: none;
 }
 body #contact-form button {

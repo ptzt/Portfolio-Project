@@ -1,5 +1,4 @@
 {
-  "homepage": "https://ptzt.github.io/Porfolio-Project",
   "name": "portfolio-example",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +6,6 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
-    "bootstrap": "^5.1.1",
     "dotenv": "^8.2.0",
     "emailjs-com": "^3.2.0",
     "react": "^17.0.2",
@@ -16,7 +14,6 @@
     "react-icons": "^4.3.1",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
-    "vercel": "^23.1.2",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
@@ -24,8 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,8 +40,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
   }
 }

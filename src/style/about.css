@@ -1,0 +1,67 @@
+.mn{
+    text-align: center;
+    margin-top: 40px;
+    text-align: justify;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.p1 {
+    font-size: 54px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+.p2 {
+    font-size: 20.2px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-right: 400px;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.resize {
+    width: 500px;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 425px) {
+    .mn {
+        margin:auto;
+        margin-top: 130px;
+        margin-right: 20px;
+        text-align: left;
+        }
+    
+        .form {
+            margin-top: -9px;
+        }
+    
+        .p1 {
+        font-size: 45px;
+        margin: 10px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        }
+    
+        .p2 {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 10px;
+       
+        }
+    
+        .resize {
+            width: 350px;
+            height: auto;
+            margin:10px;
+        }
+    
+}

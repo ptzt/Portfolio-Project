@@ -27,11 +27,7 @@ import '../style/main.css'
 function Main() {
     return(
         <div className= 'mn' >
-            <helmet>
-                <style>{'body{background-color:#101010;}'}</style>
-             </helmet>
-             
-            <div className="main">
+            <div>
                 <header className="header">
                     <form className="form" method="get" action="https://github.com/ptzt" target="_blank">    
                         <button id="button"><AiFillGithub size={35}/></button>
@@ -62,15 +58,9 @@ function Main() {
                 <h3><SiNextdotjs size={35}/> Next.js</h3>
                 <h3><DiNpm size={35}/> Npm</h3>
                 </p>
-
-            </div>
-            
-        </div>
-            <footer className="footer">
-            <h1>Tomas Millan</h1>
-            <p>Fullstack Developer • 2021</p>
-            </footer>
-        </div>
+                </div>
+           </div>
+      </div>
     )
 }
 
