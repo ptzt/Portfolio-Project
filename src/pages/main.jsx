@@ -24,8 +24,8 @@ import '../style/main.css'
 function Main() {
     return(
         <div className= 'mn' >
-            <div>
-                <header className="header">
+            <div className="header-main">
+                <header>
                     <form className="form" method="get" action="https://github.com/ptzt" target="_blank">    
                         <button id="button"><FaGithub size={30}/></button>
                     </form>
@@ -61,7 +61,7 @@ function Main() {
            <footer className="footer">
                 <div>
                  <h1 className='p1-footer'>Tomas Millan</h1>
-                <p className='p2'>Programador fullstack</p>
+                <p className='p2-footer'>Programador fullstack</p>
                </div>
            </footer>
 

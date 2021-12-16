@@ -32,7 +32,7 @@ const Talk = () => {
     }
     return (
         <>
-        <div>
+        <div className="main-talk">
         <p className="p1-talk">Vamos a hablar!💬</p>
         <p className="p2-talk">Dejame un mensaje en el formulario a continuación o póngase en contacto a través de Discord o Twitter.</p>
            
@@ -51,6 +51,13 @@ const Talk = () => {
                         </ul>
                     </div>
         </div>
+
+        <footer className="footer">
+                <div>
+                 <h1 className='p1-footer'>Tomas Millan</h1>
+                <p className='p2-footer'>Programador fullstack</p>
+               </div>
+           </footer>
         </>
     );
 };
