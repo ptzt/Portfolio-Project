@@ -1,9 +1,6 @@
 import React from 'react'
-import {AiFillGithub, 
-        AiFillLinkedin,
-        
-    } from 'react-icons/ai'
-
+import {AiFillLinkedin,} from 'react-icons/ai'
+import {FaGithub} from 'react-icons/fa'
 import { DiReact,
          DiMongodb,
          DiNodejs,
@@ -30,10 +27,10 @@ function Main() {
             <div>
                 <header className="header">
                     <form className="form" method="get" action="https://github.com/ptzt" target="_blank">    
-                        <button id="button"><AiFillGithub size={35}/></button>
+                        <button id="button"><FaGithub size={30}/></button>
                     </form>
                     <form className="form" method="get" action="https://www.linkedin.com/in/tomasmillandev/" target="_blank">    
-                        <button id="button"><AiFillLinkedin size={35}/></button>
+                        <button id="button"><AiFillLinkedin size={30}/></button>
                     </form>
             <p className = "p1">Heyy, soy Tomas✌️</p>
                 </header>
@@ -60,6 +57,14 @@ function Main() {
                 </p>
                 </div>
            </div>
+
+           <footer className="footer">
+                <div>
+                 <h1 className='p1-footer'>Tomas Millan</h1>
+                <p className='p2'>Programador fullstack</p>
+               </div>
+           </footer>
+
       </div>
     )
 }

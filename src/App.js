@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Main from './pages/main'
-import Contact from './pages/contact'
+import Talk from './pages/talk'
 import About from './pages/about'
 import Navb from './components/navbar'
 import NotFoundPage from './pages/404';
@@ -15,7 +15,8 @@ export default function App() {
         <Router > 
         <Navb />
         <Switch>
-            <Route 
+            <Route
+            className="Main-page" 
             exact path="/" 
             component={Main} 
             />
@@ -24,8 +25,8 @@ export default function App() {
             component={About}
             />
             <Route 
-            exact path="/contact" 
-            component={Contact} 
+            exact path="/talk" 
+            component={Talk} 
             />
             <Route 
             component={NotFoundPage} 

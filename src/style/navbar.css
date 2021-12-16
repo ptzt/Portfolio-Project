@@ -1,38 +1,31 @@
 :root {
-  --font: "Liberation Mono" ;
-  --color-bg: #101010;
+  --font: "Consolas" ;
+  --color-bg: #070A11;
   --color-txt: #fff;
 }
 
 
 body {
-  width: 100%;
   font-family: var(--font);
   color: var(--color-txt);
   background: var(--color-bg);
 }
 
 
-
-.App {
-    text-align: left;
-    margin: auto;
-}
-
 .App .Navbar {
   grid-template-columns: auto 1fr;
+  font-size: 13px;
 }
 
 .App .Navbar ul {
     justify-content: flex-end;
     padding: 0.25rem 0.75rem;
-    list-style: none;
 }
 
 .App .Navbar ul li {
     margin: 0 0.75rem;
-    font-size: 0.813rem;
-    text-transform: uppercase;
+    line-height: 18px;
+    font-weight: 400;
     display: inline-block;
 }
 
@@ -40,18 +33,16 @@ body {
   color: inherit;
   text-decoration: underline;
   padding: 0 0.25rem;
-  letter-spacing: 0.2rem;
   position: relative;
 }
 
-@media (max-width: 2560px) {
-  .App {
-    margin-left: 190px;
-
+@media (max-width: 1440px) {
+  .App .Navbar {
+      margin-left: auto;
+      margin-right: auto;
   }
-} 
-
-@media (max-width: 425px) {
+}
+  @media (max-width: 425px) {
   .App {
     margin:auto;
     margin-left: -20px;

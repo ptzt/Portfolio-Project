@@ -13,10 +13,10 @@ export default function Navb() {
             <Link to="/">/</Link>
           </li>
           <li>
-            <Link to="/About">About</Link>
+            <Link to="/About">/about</Link>
           </li>
           <li>
-            <Link to="/Contact">Contact</Link>
+            <Link to="/talk">/talk</Link>
           </li>
         </ul>
       </nav>
