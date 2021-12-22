@@ -1,50 +1,145 @@
-:root {
-  --font: "Consolas" ;
-  --color-bg: #070A11;
-  --color-txt: #fff;
-}
-
-
 body {
-  font-family: var(--font);
-  color: var(--color-txt);
-  background: var(--color-bg);
+  font-family: "Consolas" ;
+  color: #fff;
+  background: #070A11;
+  margin-top: 20px ;
 }
 
+@media (min-width: 426px){
 
-.App .Navbar {
-  grid-template-columns: auto 1fr;
-  font-size: 13px;
-}
+  .menu-bars{
+    display: none;
+    list-style-type: none; 
+  }
 
-.App .Navbar ul {
-    justify-content: flex-end;
-    padding: 0.25rem 0.75rem;
-}
+  .menu-exit{
+    display: none;
+    list-style-type: none; 
+  }
+  
+  .navbar-toggle{
+    list-style-type: none; 
+  }
 
-.App .Navbar ul li {
-    margin: 0 0.75rem;
-    line-height: 18px;
-    font-weight: 400;
-    display: inline-block;
-}
+  .Data {
+    text-align: center;
+  }
 
-.App .Navbar ul li a {
-  color: inherit;
-  text-decoration: underline;
-  padding: 0 0.25rem;
-  position: relative;
-}
+  .Data ul {
+    margin-top:  15px;
+  }
 
-@media (max-width: 1440px) {
-  .App .Navbar {
-      margin-left: auto;
-      margin-right: auto;
+  .Data li{
+    font-family: Consolas, sans-serif;
+    font-size: 20px;
+    display: inline;
+  }
+  
+  .Data li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 2rem;
+  }
+
+  .Data li a:hover {
+    line-height: 1em;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: white;
+    color:black;
+    font-weight: 700;
   }
 }
-  @media (max-width: 425px) {
-  .App {
-    margin:auto;
-    margin-left: -20px;
-  }
+
+@media (max-width: 425px) {
+
+.navbar {
+  margin-bottom: -50px;
+  background-color: #0f1829;
+  height: 61px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 7px;
+  border-radius: 9px;
+}
+
+.menu-bars {
+  color: white;
+  font-size: 2rem;
+  background: none;
+  margin-left: 10px;
+}
+
+.menu-exit {
+  color: white;
+  font-size: 2rem;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.nav-menu {
+  background-color: #070A11;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+  z-index: 1;
+  
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 400ms;
+}
+
+.Data li  {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.Data li a  {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.Data li a:hover {
+  background-color: #1a83ff;
+  cursor: pointer;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #111827;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+  
+   
 }

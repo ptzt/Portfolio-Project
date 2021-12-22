@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-import emailjs from 'emailjs-com'
+import * as emailjs  from 'emailjs-com'
 import '../style/contact.css'
 import {SiDiscord, SiTwitter} from 'react-icons/si'
-require('dotenv').config()
 
 const Talk = () => {
     const [email, setEmail] = useState('');
@@ -11,9 +10,9 @@ const Talk = () => {
 
     const submit = () => {
         if (email && message) {
-            const serviceId = process.env.REACT_APP_SERVICE_ID;
-            const templateId = process.env.REACT_APP_TEMPLATE_ID;
-            const userId = process.env.REACT_APP_USER_ID;
+            const serviceId = "service_53ldd8k";
+            const templateId = "template_x3trk8c";
+            const userId = "user_dxCGbZyexuWmxjv98Z5V3";
             const templateParams = {
                 email,
                 message

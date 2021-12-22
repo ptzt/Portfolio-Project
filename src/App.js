@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Main from './pages/main'
 import Talk from './pages/talk'
 import About from './pages/about'
-import Navb from './components/navbar'
+import Navb from './components/Navbar'
 import NotFoundPage from './pages/404';
 import  "./App.css"
 

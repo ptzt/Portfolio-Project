@@ -20,9 +20,9 @@ import {IoLogoJavascript
 import '../style/main.css'
 
 
-
 function Main() {
     return(
+        <>
         <div className= 'mn' >
             <div className="header-main">
                 <header>
@@ -64,8 +64,8 @@ function Main() {
                 <p className='p2-footer'>Programador fullstack</p>
                </div>
            </footer>
-
       </div>
+      </>
     )
 }
 
