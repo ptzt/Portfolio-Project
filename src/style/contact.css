@@ -5,14 +5,14 @@
 }
 .p1-talk{
     font-size: 27px;
-    font-family: Roboto, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     margin-top: 100px;
 }
 
 .p2-talk{
     font-size: 16px;
-    font-family: Roboto, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     margin: 10px 0;
 }
@@ -20,14 +20,14 @@
 .text {
     font-size: 13px;
     line-height: 18px;
-    font-family: Roboto;
+    font-family: "Poppins";
     font-weight: 700;
     color: white;
     opacity: 0.4;
 }
 
 .social {
-    font-family: Roboto 400;
+    font-family: "Poppins" 400;
     font-size: 18px;
     line-height: 22px;
     position: absolute;
@@ -48,7 +48,7 @@ body #contact-form {
     position: absolute;
     background-color:#242831 ;
     color: white;
-    font-family: "Roboto";
+    font-family: "Poppins";
     padding: 18px;
     border-radius: 0.5rem;
 }
@@ -76,7 +76,7 @@ body #contact-form button {
     cursor: pointer;
     background: #0B0F19;
     font-size: 16px;
-    font-family: "Roboto";
+    font-family: "Poppins";
     font-weight: bold;
     color: #fff;
     font-size: 16px;

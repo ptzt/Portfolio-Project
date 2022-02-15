@@ -1,5 +1,5 @@
 body {
-  font-family: "Consolas" ;
+  font-family: "Poppins" ;
   color: #fff;
   background: #070A11;
   margin-top: 20px ;
@@ -30,7 +30,7 @@ body {
   }
 
   .Data li{
-    font-family: Consolas, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 20px;
     display: inline;
   }

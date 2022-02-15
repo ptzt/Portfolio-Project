@@ -34,7 +34,6 @@ const Talk = () => {
         <div className="main-talk">
         <p className="p1-talk">Vamos a hablar!💬</p>
         <p className="p2-talk">Dejame un mensaje en el formulario a continuación o póngase en contacto a través de Discord o Twitter.</p>
-           
         <div className= "main-box" id="contact-form">
             <label for email className="text">EMAIL</label>
             <input type="email"  value={email} onChange={e => setEmail(e.target.value)}/>
@@ -46,7 +45,6 @@ const Talk = () => {
             <div className="social">
                         <ul>
                             <h3><SiDiscord size={25}/> ptzt#0436</h3>
-                            <h3><SiTwitter size={25}/> tomasptzt</h3>
                         </ul>
                     </div>
         </div>
